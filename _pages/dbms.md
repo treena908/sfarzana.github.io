@@ -1,1 +1,1 @@
-Fall 2020
+Semester: Fall 2020

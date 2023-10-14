@@ -11,17 +11,17 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align:
     image:
-    course_name: CS 480 Database Systems
-    content: ds.md
-    ins: Dr. Aravinda Prasad Sistla
+    course_name: dbms_name.md
+    content: dbms.md
+    ins: dbms_ins.md
     image_circular:  # crops the image to make it circular
 
 
   - align:
     image:
-    course_name: Data Structure
-    content: dbms.md
-    ins: Dr. Shanon Reckinger
+    course_name: ds_name.md
+    content: ds.md
+    ins: ds_ins.md
     image_circular: false # crops the image to make it circular
 
 ---
