@@ -1,12 +1,27 @@
 ---
-layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+layout: profiles
+permalink: /Teaching/
+title: Teaching
+description: Teaching experience
 nav: true
-nav_order: 5
+nav_order: 2
+
+profiles:
+  # if you want to include more than one profile, just replicate the following block
+  # and create one content file for each profile inside _pages/
+  - align:
+    image:
+    course_name: CS 480 Database Systems
+    content: Fall 2021, Spring 2022
+    ins: Dr. Aravinda Prasad Sistla
+    image_circular:  # crops the image to make it circular
+
+
+  - align:
+    image:
+    course_name: Data Structure
+    content: Fall 2020
+    ins: Dr. Shanon Reckinger
+    image_circular: false # crops the image to make it circular
+
 ---
-
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!

@@ -1,7 +1,6 @@
 ---
 layout: post
-title: A long announcement with details
-date: Jul 10-11, 2023
+date: Jul 10, 2023
 inline: false
 related_posts: false
 ---
