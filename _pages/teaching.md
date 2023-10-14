@@ -12,7 +12,7 @@ profiles:
   - align:
     image:
     course_name: CS 480 Database Systems
-    content: Fall 2021 and Spring 2022
+    content: ds.md
     ins: Dr. Aravinda Prasad Sistla
     image_circular:  # crops the image to make it circular
 
@@ -20,7 +20,7 @@ profiles:
   - align:
     image:
     course_name: Data Structure
-    content: Fall 2020
+    content: dbms.md
     ins: Dr. Shanon Reckinger
     image_circular: false # crops the image to make it circular
 
