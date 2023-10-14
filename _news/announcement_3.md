@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: May 1-2, 2023
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Attended ISIR workshop co-located with The Web Conf conference to present our work on Knowledge Graph-Enhanced Neural Query Rewriting.
