@@ -12,7 +12,7 @@ profiles:
   - align:
     image:
     course_name: CS 480 Database Systems
-    content: Fall 2021, Spring 2022
+    content: Fall 2021 and Spring 2022
     ins: Dr. Aravinda Prasad Sistla
     image_circular:  # crops the image to make it circular
 
