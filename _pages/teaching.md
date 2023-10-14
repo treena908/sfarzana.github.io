@@ -11,17 +11,17 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align:
     image:
-    course_name: dbms_name.md
+    course_name: 
     content: dbms.md
-    ins: dbms_ins.md
+    ins: 
     image_circular:  # crops the image to make it circular
 
 
   - align:
     image:
-    course_name: ds_name.md
+    course_name: 
     content: ds.md
-    ins: ds_ins.md
+    ins: 
     image_circular: false # crops the image to make it circular
 
 ---

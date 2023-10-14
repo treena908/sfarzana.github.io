@@ -32,24 +32,14 @@ layout: page
           </div>
 
           <div class="clearfix">
-           {% if profile.course_name -%}
-            {% capture profile_course_name %}{%- include_relative {{<p><strong> profile.course_name </strong> </p> }} %}{% endcapture %}
-            {{ pprofile_course_name | markdownify }}
-            {%- else -%}
-            {{ course_name }}
-            {%- endif %}
+
             {% if profile.content -%}
             {% capture profile_content %}{%- include_relative {{ profile.content }} %}{% endcapture %}
             {{ profile_content | markdownify }}
             {%- else -%}
             {{ content }}
             {%- endif %}
-            {% if profile.ins -%}
-            {% capture profile_ins %}{%- include_relative {{ profile.ins }} %}{% endcapture %}
-            {{ profile_ins | markdownify }}
-            {%- else -%}
-            {{ ins }}
-            {%- endif %}
+
           </div>
 
           {% endfor %}
