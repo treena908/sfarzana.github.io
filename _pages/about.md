@@ -24,4 +24,6 @@ My research interest is in the intersection of Natural Language Processing, Info
 I am currently a part of the Natural Language Processing lab at UIC, working under the supervision of Dr. Natalie Parde.
 
 My primary research interests are in: (1) developing and evaluating multi-modal and multi-lingual (speech and text) computational approaches for low-resource tasks in cognitive and behavioral health, and (2) dialogue systems and their applications.
-The overarching goal of my research is to leverage the power of data and recent advancements in NLP to build automated, accessible systems for cognitive and psychological well-being as well as for educational and business platforms.
+The overarching goal of my research is to leverage the
+power of data and the advancement in AI to build automated, accessible systems for cognitive,
+psychological well-being as well as for social good.
