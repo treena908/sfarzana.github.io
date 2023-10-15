@@ -20,6 +20,24 @@
     abstract = "Health-related speech datasets are often small and varied in focus. This makes it difficult to leverage them to effectively support healthcare goals. Robust transfer of linguistic features across different datasets orbiting the same goal carries potential to address this concern. To test this hypothesis, we experiment with domain adaptation (DA) techniques on heterogeneous spoken language data to evaluate generalizability across diverse datasets for a common task: dementia detection. We find that adapted models exhibit better performance across conversational and task-oriented datasets. The feature-augmented DA method achieves a 22{\%} increase in accuracy adapting from a conversational to task-specific dataset compared to a jointly trained baseline. This suggests promising capacity of these techniques to allow for productive use of disparate data for a complex spoken language healthcare task.",
     journal={ACL}
 }
+@inproceedings{10.1145/3543873.3587678,
+author = {Farzana, Shahla and Zhou, Qunzhi and Ristoski, Petar},
+title = {Knowledge Graph-Enhanced Neural Query Rewriting},
+year = {2023},
+isbn = {9781450394192},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3543873.3587678},
+doi = {10.1145/3543873.3587678},
+abstract = {The main task of an e-commerce search engine is to semantically match the user query to the product inventory and retrieve the most relevant items that match the user’s intent. This task is not trivial as often there can be a mismatch between the user’s intent and the product inventory for various reasons, the most prevalent being: (i) the buyers and sellers use different vocabularies, which leads to a mismatch; (ii) the inventory doesn’t contain products that match the user’s intent. To build a successful e-commerce platform it is of paramount importance to be able to address both of these challenges. To do so, query rewriting approaches are used, which try to bridge the semantic gap between the user’s intent and the available product inventory. Such approaches use a combination of query token dropping, replacement and expansion. In this work we introduce a novel Knowledge Graph-enhanced neural query rewriting in the e-commerce domain. We use a relationship-rich product Knowledge Graph to infuse auxiliary knowledge in a transformer-based query rewriting deep neural network. Experiments on two tasks, query pruning and complete query rewriting, show that our proposed approach significantly outperforms a baseline BERT-based query rewriting solution.},
+booktitle = {Companion Proceedings of the ACM Web Conference 2023},
+pages = {911–919},
+numpages = {9},
+keywords = {Query Rewriting, Knowledge Graph, eCommerce},
+location = {Austin, TX, USA},
+series = {WWW '23 Companion},
+abbr={WWW},
+}
 @article{farzana-parde-2022-interaction,
     bibtex_show={true},
     abbr={SIGdial},
@@ -36,6 +54,23 @@
     abstract = "Dementia often manifests in dialog through specific behaviors such as requesting clarification, communicating repetitive ideas, and stalling, prompting conversational partners to probe or otherwise attempt to elicit information. Dialog act (DA) sequences can have predictive power for dementia detection through their potential to capture these meaningful interaction patterns. However, most existing work in this space relies on content-dependent features, raising questions about their generalizability beyond small reference sets or across different cognitive tasks. In this paper, we adapt an existing DA annotation scheme for two different cognitive tasks present in a popular dementia detection dataset. We show that a DA tagging model leveraging neural sentence embeddings and other information from previous utterances and speaker tags achieves strong performance for both tasks. We also propose content-free interaction features and show that they yield high utility in distinguishing dementia and control subjects across different tasks. Our study provides a step toward better understanding how interaction patterns in spontaneous dialog affect cognitive modeling across different tasks, which carries implications for the design of non-invasive and low-cost cognitive health monitoring tools for use at scale.",
      journal={SIGdial}
 }
+@inproceedings{farzana-etal-2022-say,
+    title = "How You Say It Matters: Measuring the Impact of Verbal Disfluency Tags on Automated Dementia Detection",
+    author = "Farzana, Shahla  and
+      Deshpande, Ashwin  and
+      Parde, Natalie",
+    booktitle = "Proceedings of the 21st Workshop on Biomedical Language Processing",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.bionlp-1.4",
+    doi = "10.18653/v1/2022.bionlp-1.4",
+    pages = "37--48",
+    abbr={BioNLP}
+    abstract = "Automatic speech recognition (ASR) systems usually incorporate postprocessing mechanisms to remove disfluencies, facilitating the generation of clear, fluent transcripts that are conducive to many downstream NLP tasks. However, verbal disfluencies have proved to be predictive of dementia status, although little is known about how various types of verbal disfluencies, nor automatically detected disfluencies, affect predictive performance. We experiment with an off-the-shelf disfluency annotator to tag disfluencies in speech transcripts for a well-known cognitive health assessment task. We evaluate the performance of this model on detecting repetitions and corrections or retracing, and measure the influence of gold annotated versus automatically detected verbal disfluencies on dementia detection through a series of experiments. We find that removing both gold and automatically-detected disfluencies negatively impacts dementia detection performance, degrading classification accuracy by 5.6{\%} and 3{\%} respectively",
+
+}
 @article{farzana20_interspeech,
   bibtex_show={true},
   abbr={INTERSPEECH},
@@ -47,3 +82,30 @@
   doi={10.21437/Interspeech.2020-3085},
   journal={Interspeech}
 }
+@inproceedings{farzana-etal-2020-modeling,
+    title = "Modeling Dialogue in Conversational Cognitive Health Screening Interviews",
+    author = "Farzana, Shahla  and
+      Valizadeh, Mina  and
+      Parde, Natalie",
+    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.147",
+    pages = "1167--1177",
+    abstract = "Automating straightforward clinical tasks can reduce workload for healthcare professionals, increase accessibility for geographically-isolated patients, and alleviate some of the economic burdens associated with healthcare. A variety of preliminary screening procedures are potentially suitable for automation, and one such domain that has remained underexplored to date is that of structured clinical interviews. A task-specific dialogue agent is needed to automate the collection of conversational speech for further (either manual or automated) analysis, and to build such an agent, a dialogue manager must be trained to respond to patient utterances in a manner similar to a human interviewer. To facilitate the development of such an agent, we propose an annotation schema for assigning dialogue act labels to utterances in patient-interviewer conversations collected as part of a clinically-validated cognitive health screening task. We build a labeled corpus using the schema, and show that it is characterized by high inter-annotator agreement. We establish a benchmark dialogue act classification model for the corpus, thereby providing a proof of concept for the proposed annotation schema. The resulting dialogue act corpus is the first such corpus specifically designed to facilitate automated cognitive health screening, and lays the groundwork for future exploration in this area.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+    abbr={LREC}
+}
+@INPROCEEDINGS{7461479,
+  author={Farzana, Shahla and Papry, Khaleda Akther and Rahman, Ashikur and Rab, Raqeebir},
+  booktitle={2016 Wireless Days (WD)},
+  title={Maximally pair-wise disjoint set covers for directional sensors in visual sensor networks},
+  year={2016},
+  volume={},
+  number={},
+  pages={1-7},
+  doi={10.1109/WD.2016.7461479}},
+  abbr={WD}
